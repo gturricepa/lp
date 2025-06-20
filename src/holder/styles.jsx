@@ -19,6 +19,8 @@ export const HolderBG = styled.div`
 
 export const Alert = styled.img`
   @media (max-width: 1600px) {
+    margin-top: 1rem;
+
     width: 90px;
   }
 `;

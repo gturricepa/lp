@@ -10,7 +10,8 @@ import * as S from "./styles";
 export const Holder = () => {
   return (
     <S.HolderBG>
-      <img alt="alert" src={alert} />
+      <S.Alert alt="alert" src={alert}></S.Alert>
+
       <Content
         title={"Scheduled Maintenance Notice"}
         desc={
@@ -40,7 +41,7 @@ export const Holder = () => {
         country={pt}
       />
 
-      <img alt="logo" src={logo} style={{ width: "180px", height: "72px" }} />
+      <S.Logo alt="logo" src={logo}></S.Logo>
     </S.HolderBG>
   );
 };

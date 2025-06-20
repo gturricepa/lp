@@ -5,7 +5,14 @@ export const ContentLayout = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 32px; /* Espaçamento entre a imagem e os textos */
+  gap: 32px;
+
+  @media (max-width: 1600px) {
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
 `;
 
 // Parte esquerda: imagem
@@ -15,8 +22,13 @@ export const Header = styled.div`
   justify-content: center;
 
   img {
-    width: 61px; /* ajuste conforme o Figma */
+    width: 61px;
     height: 61px;
+
+    @media (max-width: 1600px) {
+      width: 52px;
+      height: 52px;
+    }
   }
 `;
 
@@ -30,19 +42,27 @@ export const Holder = styled.div`
   h1 {
     font-size: 27px;
     margin: 0 0 16px 0;
-    padding: 0;
+
+    @media (max-width: 1600px) {
+      font-size: 22px;
+    }
   }
 
   p {
     font-size: 18px;
     margin: 0 0 16px 0;
-    padding: 0;
     width: 847px;
+
+    @media (max-width: 1600px) {
+      font-size: 15px;
+    }
   }
 
   li {
     font-size: 18px;
-    margin: 0;
-    padding: 0;
+
+    @media (max-width: 1600px) {
+      font-size: 15px;
+    }
   }
 `;

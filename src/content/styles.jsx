@@ -13,6 +13,9 @@ export const ContentLayout = styled.div`
     align-items: flex-start;
     gap: 24px;
   }
+  @media (max-width: 950px) {
+    justify-content: center;
+  }
 `;
 
 // Parte esquerda: imagem
@@ -43,6 +46,10 @@ export const Holder = styled.div`
   flex-direction: column;
   color: #ffffff;
   font-family: "Inter", sans-serif;
+  @media (max-width: 950px) {
+    justify-content: center;
+    align-items: center;
+  }
 
   h1 {
     font-size: 27px;
@@ -95,5 +102,6 @@ export const Line = styled.img`
     justify-self: center;
     align-self: center;
     height: 2px;
+    margin-right: 3rem;
   }
 `;

@@ -47,7 +47,6 @@ export const Holder = styled.div`
   font-family: "Inter", sans-serif;
   @media (max-width: 950px) {
     justify-content: center;
-    align-items: center;
   }
 
   h1 {

@@ -14,16 +14,8 @@ export const Content = ({ title, desc, bold, soon, country }) => {
         <li>
           <b>{bold}</b> {soon}
         </li>
-        <img
-          style={{
-            width: "739px",
-            height: "2px",
-            marginTop: "26px",
-            marginBottom: "26px",
-          }}
-          src={line}
-          alt="line"
-        />
+
+        <S.Line src={line} alt="line"></S.Line>
       </S.Holder>
     </S.ContentLayout>
   );

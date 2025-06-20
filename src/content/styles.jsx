@@ -29,6 +29,11 @@ export const Header = styled.div`
       width: 52px;
       height: 52px;
     }
+    @media (max-width: 950px) {
+      width: 32px;
+      height: 32px;
+      margin-left: 1rem;
+    }
   }
 `;
 
@@ -46,6 +51,9 @@ export const Holder = styled.div`
     @media (max-width: 1600px) {
       font-size: 22px;
     }
+    @media (max-width: 950px) {
+      font-size: 20px;
+    }
   }
 
   p {
@@ -56,6 +64,11 @@ export const Holder = styled.div`
     @media (max-width: 1600px) {
       font-size: 15px;
     }
+    @media (max-width: 950px) {
+      width: 100%;
+      font-size: 12px;
+      margin-right: 1rem;
+    }
   }
 
   li {
@@ -63,6 +76,26 @@ export const Holder = styled.div`
 
     @media (max-width: 1600px) {
       font-size: 15px;
+      @media (max-width: 950px) {
+        font-size: 12px;
+        margin-right: 1rem;
+      }
     }
+  }
+  img {
+  }
+`;
+
+export const Line = styled.img`
+  width: 739px;
+  height: 2px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  @media (max-width: 950px) {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 2px;
   }
 `;

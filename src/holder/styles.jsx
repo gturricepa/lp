@@ -13,20 +13,24 @@ export const HolderBG = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  @media (max-width: 1600px) {
-  }
 `;
 
 export const Alert = styled.img`
   @media (max-width: 1600px) {
     margin-top: 1rem;
-
     width: 90px;
+  }
+
+  @media (max-width: 950px) {
+    width: 60px;
   }
 `;
 export const Logo = styled.img`
   @media (max-width: 1600px) {
     width: 150px;
     margin-bottom: 1rem;
+  }
+  @media (max-width: 950px) {
+    width: 90px;
   }
 `;

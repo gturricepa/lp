@@ -14,7 +14,6 @@ export const ContentLayout = styled.div`
     gap: 24px;
   }
   @media (max-width: 950px) {
-    justify-content: center;
   }
 `;
 

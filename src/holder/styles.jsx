@@ -18,19 +18,19 @@ export const HolderBG = styled.div`
 export const Alert = styled.img`
   @media (max-width: 1600px) {
     margin-top: 1rem;
-    width: 90px;
+    width: 60px;
   }
 
   @media (max-width: 950px) {
-    width: 60px;
+    width: 40px;
   }
 `;
 export const Logo = styled.img`
   @media (max-width: 1600px) {
-    width: 150px;
+    width: 100px;
     margin-bottom: 1rem;
   }
   @media (max-width: 950px) {
-    width: 90px;
+    width: 80px;
   }
 `;

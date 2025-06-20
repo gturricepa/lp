@@ -65,7 +65,7 @@ export const Holder = styled.div`
       font-size: 15px;
     }
     @media (max-width: 950px) {
-      width: 100%;
+      width: 90%;
       font-size: 12px;
       margin-right: 1rem;
     }
@@ -78,11 +78,9 @@ export const Holder = styled.div`
       font-size: 15px;
       @media (max-width: 950px) {
         font-size: 12px;
-        margin-right: 1rem;
+        width: 90%;
       }
     }
-  }
-  img {
   }
 `;
 
